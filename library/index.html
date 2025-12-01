@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-lg-3 col-md col-sm">
+                <a href="img/moutain1.png" data-fancybox="gallery" data-caption="image1">
+                    <img src="img/moutain1.png" alt="" width="100%" height="400px">
+                </a>
+            </div>
+            <div class="col-lg-5 col-md col-sm">
+                <a href="img/mountain2.png" data-fancybox="gallery" data-caption="image1">
+                    <img src="img/mountain2.png" alt="" width="100%" height="400px">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md col-sm">
+                <a href="img/mountain3.png" data-fancybox="gallery" data-caption="image1">
+                    <img src="img/mountain3.png" alt="" width="100%" height="400px">
+                </a>
+            </div>
+            <div class="col-lg col-md col-sm" width="100%" height="400px">
+                <a href="https://youtu.be/TwS4GTnrbUc" data-fancybox="gallery" data-caption="image1">
+                    <img src="https://img.youtube.com/vi/TwS4GTnrbUc/maxresdefault.jpg" alt="" width="100%">
+                </a>
+            </div>
+            <div class="col-lg col-md col-sm" width="100%" height="400px">
+
+            </div>
+            <div class="col-lg col-md col-sm" width="100%" height="400px">
+
+            </div>
+        </div>
+    </div>
+
+    <section id="light-switch">
+
+        <div class="bulb"></div>
+
+        <button id="on" class="switch">on</button>
+        <button id="off" class="switch">off</button>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            zoomEffect: false,
+            Carousel: {
+                gestures: false,
+                Zoomable: {
+                    Panzoom: {
+                        startPos: {
+                            scale: "cover",
+                        },
+                    },
+                },
+            },
+        });
+    </script>
+    <script>
+
+        $(document).ready(function(){
+
+
+            $('#on').click(function(){
+
+                $('.bulb').toggleClass('current');
+            })
+
+            $('#off').click(function(){
+                $('.bulb').removeClass('current');
+            })
+
+
+            
+        })
+
+    </script>
+</body>
+
+</html>

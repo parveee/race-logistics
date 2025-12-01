@@ -1,0 +1,512 @@
+ul li{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+section{
+    padding: 80px;
+}
+.call-tel{
+    padding-bottom: 30px;
+}
+.call-tel img{
+    background-color: rgb(138, 189, 61);
+    border-radius: 50%;
+    padding: 10px;
+    width: 90px;
+}
+.whatsapp img{
+    width: 90px;
+}
+.contact-by{
+    padding-left: 5px;
+    gap: 10px;
+    position: fixed;
+
+}
+/* header */
+header{
+    background-color: #4d2c82;
+    position: fixed;
+    width: 100%;
+    padding: 0%;
+    z-index: 100;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.sub-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    gap: 20px;
+   
+}
+.header .nav a{
+    gap: 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding:5px 10px;
+    
+}
+.header .nav a:hover{
+    background-color: #371d61;
+           border-radius: 10px;
+           
+}
+.header .logo img{
+    width: 120px;
+}
+.call{
+  background-color:#361a64;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    line-height: 17px;
+    gap: 5px;
+}
+.header .call img,.track img{
+    width: 20px;
+}
+.track{
+    background-color: #f26221;
+    padding: 9px;
+    border-radius: 10px;
+}
+/* hero */
+#hero{
+    background: url('/img/banner2.avif');
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.tracking-info input{
+   border-radius: 20px;
+   background-color: white;
+   padding: 15px 20px;
+   border: none;
+   width: 100%;
+   max-width: 400px;
+}
+.tracking-info a{
+    background-color:#f26221 ;
+    border-radius: 20px;
+    padding: 15px 30px;
+    margin: 5px;   
+}
+.hero-contant p{
+    font-size: 20px;
+}
+.hero-contant h1{
+    font-size: 60px;
+}
+/* more-info */
+
+.more-info h2, .why-us h2, .transport-info h2, .detail-info h2{
+    font-size: 45px;
+}
+.common-contact h2{
+    font-size: 40px;
+}
+.explaination{
+    font-size: 15px;  
+    font-weight: 400;
+}
+.count{
+    font-size: 45px;
+    font-weight: 650;
+}
+.more-info a{
+    background-color:#371d61;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+.more-info-paragraph, .transport-info p{
+    font-size: 20px;
+    font-weight:400 ;
+}
+/* why-us */
+.why-us-1{
+    background:linear-gradient(rgba(0, 0, 0, 0.36)), url(/img/flight.png);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.why-icon{
+    height: 50px;
+    width: 50px;
+    background-color: #e8def8;
+    padding: 5px;
+    border-radius: 10px ;
+}
+.card:hover .why-icon{
+     border: solid 4px #f26221;
+    transform: rotate(360deg);
+    transition: all 0.5s;
+    border-radius: 40px;
+}
+.why-icon img{
+    width: 100%;
+    
+}
+
+.describe, .paragraph-h3,.why-us h3, .why-icon{
+   margin: 15px;
+}
+.why-us h2{
+    padding: 20px 0px;
+}
+.card{
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.card:hover{
+    background-color: #371d61;
+    color: white;
+     transition: 0.3s ease-in-out;
+}
+
+.describe-more{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+/* .detail-info */
+.detail-info{
+    display: flex;
+    flex-direction: column;
+}
+.detail-info p, .contact p{
+     font-size: 17px;
+    font-weight:400 ;
+   
+}
+.detail-info h2 ,.detail-info h3 {
+    display: flex;
+    justify-content: center;   
+}
+.detail-info h2{
+    padding-top: 0%;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.product{
+    background-color: #371d61;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.product img{
+    padding: 10px;
+}
+#detail-info .container{
+     background-color: #4d2c82;
+    color: white;
+    border-radius: 40px;
+}
+.more-detail-info{
+    max-width: 800px;
+    margin: auto;
+}
+.companies{
+    background-color: #371d61;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    height: 100%;
+}
+.way{
+    background-color: #371d61;
+    border-radius: 20px;
+}
+.company{
+    gap: 10px;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    padding: 5px;
+    height: 100%;
+}
+
+.flags{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 488px;
+    margin: auto;
+}
+.flag{
+    padding: 7px;
+    background-color: #371d61;
+    border-radius: 10px;
+}
+.flag img{
+    border-radius: 8px;
+}
+.more-detail-info h2{
+    padding: 10px 0px;
+    margin: 0px 0px ;
+}
+.door{
+   border: solid; 
+   width: max-content;
+   border-radius: 20px;
+   padding: 5px; 
+   text-align: center;
+   padding-bottom: 0%;
+   margin: auto;
+}
+.detail-info-paragraph{
+    text-align: center;
+}
+.section1{
+    padding: 20px;
+}
+.more-detail-info h3{
+    padding: 10px;
+}
+.flags{
+    padding-bottom: 40px;
+}
+/*common-contact */
+.common-contact p{
+     font-size: 25px;
+    font-weight:400 ;
+}
+.common-contact button{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: solid 3px rgb(183, 183, 226);
+    font-size: 20px;
+    box-shadow: #361a64 0px 8px;
+}
+.common-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+/* footer */
+footer{
+    background-color:#eee3ff;
+    padding: 30px;
+}
+
+.footer nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 17px;
+}
+.footer .footer-image{
+    padding: 20px;
+}
+.footer h3{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    gap: 10px;
+}
+.mini-group{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+}
+.mini-group img{
+    width: 20px;
+    height: 20px;
+}
+.mini-group a{
+    padding-bottom: px;
+}
+.slid{
+    position: relative;
+}
+.label{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    right: 5px;
+    bottom: 0;
+    color: white;
+}
+button.slick-prev.slick-arrow {
+    position: absolute;
+    left: -13px;
+    top: 45%;
+    z-index: 1;
+     background-color: rgba(0, 0, 0, 0.281);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+button.slick-next.slick-arrow {
+    position: absolute;
+    right: -13px;
+    top: 45%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.281);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about-us */
+#about-hero{
+    background:linear-gradient(rgba(0, 0, 0, 0.623),rgba(128, 128, 128, 0)) ,url('/img/about-hero-image.png');
+    background-size: cover;
+    height: 350px;
+     background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.about-hero h1{
+    font-size: 60px;
+}
+.about-history .door{
+      padding: 5px 20px;
+      border: solid 1px;
+}
+.about-history h2{
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+.about-history .row{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    height: 100%;
+    
+}
+.about-history img{
+    border-radius: 20px;
+    border: solid 3px white;
+    box-shadow: #f26221 10px 10px;
+}
+.about-history .text{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+/* about-goals */
+.about-goals .about-goal .mission h3::after{
+        background-color: orange;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* services-hero */
+#services-hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.515),rgba(0, 0, 0, 0.296)),url(/img/hero-services.png);
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-hero h1{
+    font-size: 60px;
+}
