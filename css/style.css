@@ -510,3 +510,17 @@ button.slick-next.slick-arrow {
 .services-hero h1{
     font-size: 60px;
 }
+.different-services{
+    background-color:#351d590e;
+    color: #4d2c82;
+    border-radius: 15px;
+    height: 100%;
+}
+.different-services img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+   box-shadow: #f26221 0px 3px;
+}
+.different-services h3,.different-services p{
+    padding: 5px 15px;
+}
