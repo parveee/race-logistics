@@ -545,5 +545,10 @@ button.slick-next.slick-arrow {
 
 /* contact-us */
 #contact-hero{
-    
+    background:linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.482)) ,url('/img/contact-hero.png');
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
