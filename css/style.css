@@ -621,7 +621,12 @@ button.slick-next.slick-arrow {
     background-repeat: no-repeat;
 }
 .box{
-    background: #301556;
+    color: white;
+    background:#351d59;
+    border: #10db36;
+    border-radius: 20px;
+    margin: 5px 0px;
+    padding: 50px 30px;
 }
 
 
