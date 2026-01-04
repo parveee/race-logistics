@@ -627,7 +627,43 @@ button.slick-next.slick-arrow {
     border-radius: 20px;
     margin: 5px 0px;
     padding: 50px 30px;
+    border: solid 2px white;
+   
 }
+.contact-h3{
+    border-left: solid 5px #f26221;
+    padding: 5px;
+    
+}
+.img{
+    filter: invert(1);
+}
+.contact-pp{
+    font-size: 16px;
+    font-weight: 200;
+    width: 70%;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.contact-p{
+    background: #4d2c82;
+    padding: 5px 8px;
+    display: block;
+    width: max-content;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.big{
+    width: 100%;
+}
+.a{
+    font-weight: 200;
+}
+.china{
+    margin-top: 30px;
+}
+
 
 
 
