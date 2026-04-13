@@ -1,4 +1,4 @@
-// the magic
+/* // the magic
   responsive: [{
 
       breakpoint: 1024,
@@ -15,7 +15,7 @@
         dots: true
       }
 
-    }]
+    }] */
     @media screen and ( max-width: 1199px){
     a.nav-bt1{
       flex-direction: row;
@@ -59,6 +59,11 @@
       .menu{
         display: flex;
       }
+      .mobile-menu{
+        display: flex
+      }
+      
+
     }
     @media screen and ( max-width:768px){
       
