@@ -497,7 +497,7 @@ button.slick-next.slick-arrow {
 
 /* about-us */
 #about-hero{
-    background:linear-gradient(rgba(0, 0, 0, 0.623),rgba(128, 128, 128, 0)) ,url('/img/about-hero-image.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.623),rgba(128, 128, 128, 0)) ,url('../img/about-hero-image.png');
     background-size: cover;
     height: 350px;
      background-repeat: no-repeat;
@@ -564,7 +564,7 @@ button.slick-next.slick-arrow {
 
  /* services-hero */
 #services-hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.515),rgba(0, 0, 0, 0.296)),url(/img/hero-services.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.515),rgba(0, 0, 0, 0.296)),url('../img/hero-services.png');
     height: 350px;
     width: 100%;
     background-size: cover;
@@ -592,8 +592,32 @@ button.slick-next.slick-arrow {
 .different-services h3,.different-services p{
     padding: 5px 15px;
 }
-
-
+body{
+    position: relative;
+    
+}
+.all{
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    left: 100px;
+    z-index: 100px;
+}
+/* .about-contact{
+    position: absolute;
+    top:300px ;
+    right: 100px;
+    left: 100px;
+}
+.common-contact{
+    position: ;
+} */
+footer{
+    position:relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
 
 
@@ -613,7 +637,7 @@ button.slick-next.slick-arrow {
 
 /* contact-us */
 #contact-hero{
-    background:linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.482)) ,url('/img/contact-hero.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.482)) ,url('../img/contact-hero.png');
     height: 450px;
     width: 100%;
     background-size: cover;
