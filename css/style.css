@@ -592,32 +592,7 @@ button.slick-next.slick-arrow {
 .different-services h3,.different-services p{
     padding: 5px 15px;
 }
-body{
-    position: relative;
-    
-}
-.all{
-    position: absolute;
-    top: 250px;
-    right: 100px;
-    left: 100px;
-    z-index: 100px;
-}
-/* .about-contact{
-    position: absolute;
-    top:300px ;
-    right: 100px;
-    left: 100px;
-}
-.common-contact{
-    position: ;
-} */
-footer{
-    position:relative;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
+
 
 
 
@@ -686,6 +661,31 @@ footer{
 }
 .china{
     margin-top: 30px;
+}body{
+    position: relative;
+    
+}
+.all{
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    left: 100px;
+    z-index: 100px;
+}
+/* .about-contact{
+    position: absolute;
+    top:300px ;
+    right: 100px;
+    left: 100px;
+}
+.common-contact{
+    position: ;
+} */
+footer{cotact footer
+    position:relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 
