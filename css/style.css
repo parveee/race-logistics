@@ -35,7 +35,7 @@ header{
     position: fixed;
     width: 100%;
     padding: 0%;
-    z-index: 100;
+    z-index: 999;
 
 }
 .header{
@@ -666,11 +666,9 @@ button.slick-next.slick-arrow {
     
 }
 .all{
-    position: absolute;
-    top: 250px;
-    right: 100px;
-    left: 100px;
-    z-index: 100px;
+    position: relative;
+    margin-top: -200px;
+    z-index: 100;
 }
 /* .about-contact{
     position: absolute;
@@ -681,7 +679,7 @@ button.slick-next.slick-arrow {
 .common-contact{
     position: ;
 } */
-footer{cotact footer
+footer{
     position:relative;
     bottom: 0;
     right: 0;
