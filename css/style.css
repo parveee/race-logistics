@@ -229,6 +229,9 @@ header{
     flex-direction: column;
     justify-content: space-between;
 }
+.why-us-1 p, h3{
+    padding: 8px;
+}
 .why-icon{
     height: 50px;
     width: 50px;
@@ -248,7 +251,7 @@ header{
 }
 
 .describe, .paragraph-h3,.why-us h3, .why-icon{
-   margin: 15px;
+   margin: 5px;
 }
 .why-us h2{
     padding: 20px 0px;
@@ -261,6 +264,7 @@ header{
     flex-direction: column;
     align-items: start;
     justify-content: space-between;
+    padding: 15px;
 }
 .card:hover{
     background-color: #371d61;
